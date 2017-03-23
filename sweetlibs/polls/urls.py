@@ -3,6 +3,7 @@ from django.conf.urls import url
 # This line pulls url paths from the root url file. More on this next
 from . import views
 # This is where the views are called from this file, rather than the parent file.
+app_name = 'polls'
 urlpatterns = [
     # ex /polls/
     url(r'^$', views.index, name='index'),

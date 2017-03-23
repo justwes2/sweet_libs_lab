@@ -26,7 +26,7 @@ What is your opinion on the technology after having built something with it?
 What are the biggest conceptual hurdles (if any) you encountered when researching this?  
   The greatest challenge I have encountered is working in python, a language I am unfamiliar with. At this stage, I am modeling code off of tutorials and forums, but the linguistic conventions of python are somewhat enigmatic.  
 What resources do you recommend for interested students?  
-  `https://docs.djangoproject.com/en/1.10/intro/tutorial01/` has been a good resource for a first time python user.  
+  `https://docs.djangoproject.com/en/1.10/intro/tutorial01/` has been a good resource for a first time python user. I want to stress the extent to which I built this tutorial app, and do not take credit for the code or design. 
 What article or forum was most helpful to you in learning this?  
   The step by step was helpful, and there were often links for additional resources for common problems or background knowledge.  
 What are 3 interview questions one might be asked about this technology?  
