@@ -13,10 +13,13 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+# Here you will define the app paths within the project
 from django.conf.urls import include, url
+# make sure to add include here, it does not do so automatically
 from django.contrib import admin
 
 urlpatterns = [
     url(r'^polls/', include('polls.urls')),
+    # This line will be added to address any /polls requests
     url(r'^admin/', admin.site.urls),
 ]
