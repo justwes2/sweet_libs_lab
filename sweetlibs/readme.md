@@ -16,9 +16,7 @@ What is it similar to, if anything?
   Again, Rails.
 What is the history of this technology?
   From wikipedia:
-    "Django was born in the fall of 2003, when the web programmers at the Lawrence Journal-World newspaper, Adrian Holovaty and Simon Willison, began using Python to build applications. It was released publicly under a BSD license in July 2005. The framework was named after guitarist Django Reinhardt.
-
-    In June 2008, it was announced that a newly formed Django Software Foundation (DSF) would maintain Django in the future."
+    "Django was born in the fall of 2003, when the web programmers at the Lawrence Journal-World newspaper, Adrian Holovaty and Simon Willison, began using Python to build applications. It was released publicly under a BSD license in July 2005. The framework was named after guitarist Django Reinhardt. In June 2008, it was announced that a newly formed Django Software Foundation (DSF) would maintain Django in the future."
 Who built it and why?
   see above
 Who is maintaining it?
