@@ -2,10 +2,27 @@
 # make sure to change the above to HttpResponse, it is not the default, and not doing so will prevent the view from rendering
 # from django.http import Http404
 from django.shortcuts import get_object_or_404, render
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect
 from django.urls import reverse
+from djange.views import generic
 
 from .models import Choice, Question
+
+class IndexView(generic.ListView):
+    template_name = 'polls/index.html'
+    context_object_name = 'latest_question_list'
+
+    def get_queryset(self):
+        """Return the last five published questions. """
+        return Question.object.order_by('-pub-date')[:5]
+
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = 'polls/detail.html'
+
+class ResultsView(generic.DetailView):
+    model = Question
+    template_name = 'polls/results.html'
 
 def index(request):
     # this simple view will render the text above at the defined path.
